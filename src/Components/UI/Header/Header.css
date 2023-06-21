@@ -1,0 +1,15 @@
+.Header {
+  height: auto;
+  background-color: #1E2022;
+  display: flex;
+  align-items: center;
+  padding: 0.3125rem 1.25rem;
+  justify-content: space-between;
+  width: 100%;
+}
+.Header h1 {
+  color: #EEEEEE;
+  font-family: Comforter;
+  font-size: 2.5rem;
+  letter-spacing: 0.3125rem;
+}/*# sourceMappingURL=Header.css.map */

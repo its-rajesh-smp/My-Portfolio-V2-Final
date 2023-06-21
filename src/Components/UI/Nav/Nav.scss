@@ -1,0 +1,9 @@
+@import "../../../Style/style";
+
+.Nav {
+    color: $white;
+    font-size: torem(20px);
+    display: flex;
+    gap: torem(20px);
+    font-family: poppins;
+}

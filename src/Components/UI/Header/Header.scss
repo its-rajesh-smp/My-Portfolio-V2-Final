@@ -1,0 +1,18 @@
+@import "../../../Style/style";
+
+.Header {
+    height: auto;
+    background-color: $dark;
+    display: flex;
+    align-items: center;
+    padding: torem(5px) torem(20px);
+    justify-content: space-between;
+    width: 100%;
+
+    h1 {
+        color: $white;
+        font-family: Comforter;
+        font-size: torem(40px);
+        letter-spacing: torem(5px);
+    }
+}
