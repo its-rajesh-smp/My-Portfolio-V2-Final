@@ -12,6 +12,7 @@ const useReveal = (elementRef, containerRef, animationFrom, animationTo) => {
     let ctx = gsap.context(() => {
       const element =
         elementRef.type === "class" ? elementRef.ref : elementRef.ref.current;
+
       gsap.fromTo(element, animationFrom, animationTo);
     }, container);
 

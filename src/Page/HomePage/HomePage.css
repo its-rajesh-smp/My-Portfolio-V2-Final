@@ -1,0 +1,16 @@
+.HomePage {
+  height: calc(100vh - 4.375rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TextSection {
+  font-size: 3.125rem;
+  font-family: poppins;
+}
+.TextSection h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}/*# sourceMappingURL=HomePage.css.map */
